@@ -1,78 +1,22 @@
+@import "./App.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  margin: 0;
-  padding: 40px 20px;
 }
 
 #root {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.container {
-  background-color: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.contador {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #555;
-}
-
-form {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-form input[type="text"] {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-button {
-  padding: 8px 12px;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-}
-
-form button {
-  background-color: #222;
-  color: white;
-}
-
-.idea {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  background-color: #fafafa;
-}
-
-.idea span {
-  flex: 1;
-}
-
-.feita {
-  text-decoration: line-through;
-  color: #888;
-}
-
-.idea button {
-  background-color: #ddd;
+  width: 100%;
+  min-height: 100vh;
 }
